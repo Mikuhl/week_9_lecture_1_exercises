@@ -26,10 +26,13 @@ $("div").append("<button>Click me!</button>").text("Login");
 
 //Write a jQuery statement that displays nothing more than a label control containing 'Update Unsuccessful!' within a div with an ID of 'message'.
 //For a bigger challenge, make the text display in red.
-
+$("div.label").val("Update Unsuccessful!").css("color", "red")
 
 //Write a jQuery statement to set a text box with an ID of 'userid' to the value of 'gwashington'.
+$("#userid").val("gwashington")
 
-//Write a jQuery statement to set the selected value of a listbox with the ID of 'states' to the item with the value of 'NY'. Make sure the cause the event to fire.
-
+//Write a jQuery statement to set the selected value of a listbox with the ID of 'states' to the item with the value of 'NY'.
+//Make sure the cause the event to fire.
+$(select#states).val("NY")
 //Write a jQuery statement to set the value of a label control with the class of 'alert' to the value of 'Emergency Failure!!!'.
+$("label#alert").val("Emergency Failure!!!")
